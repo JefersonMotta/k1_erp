@@ -23,5 +23,10 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/
+    - assets/icons/
     - assets/fonts/
+    
+fonts:
+    - family: DINPro
+      fonts:
+        - asset: assets/fonts/DINPro.ttf
