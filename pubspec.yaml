@@ -1,0 +1,27 @@
+name: k1_erp
+description: Um ERP multiplataforma usando Flutter.
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Adicione suas dependências aqui
+  provider: ^6.0.0
+  http: ^1.0.0
+  shared_preferences: ^2.0.0
+  # Outros pacotes conforme necessário
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Dependências de desenvolvimento
+  lint: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
